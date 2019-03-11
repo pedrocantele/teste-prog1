@@ -12,5 +12,6 @@ int mult(int a, int b){
 	return res;
 }
 int quad(int a){
-
+	a = a *a;
+	return a;
 }
