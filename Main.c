@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "matematica.h"
 int main() {
-        int r = soma(1, 3);
-        printf("r = %d\n");
-        printf("Quer tc\n");
+        int a = mult(2, 4);
+        int b = quad(2);
+        printf("Resultado multiplicacao: %d\n",a);
+        printf("Resultado quadrado: %d\n",b);
         return 0;
 }
